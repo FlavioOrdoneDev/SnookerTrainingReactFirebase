@@ -48,7 +48,6 @@ export default class Categorias extends Component {
         const { categorias , ...categoriaDetalhes} = response.data;
         console.log(response.data);
         console.log(categorias);
-
         
         console.log("---------------------------");
         console.log(categorias);
@@ -80,29 +79,28 @@ export default class Categorias extends Component {
     render() {
         const { categorias, pagina, categoriaDetalhes } = this.state;
         return (
-
             <div className="cont">
-               <div className="wrapper">      
-                <table className="content-table">
-                    <thead>
-                      <tr>
-                        <th>Nome</th>
-                        <th>Descrição</th>
-                        <th>Detalhes</th>
-                      </tr>
-                    </thead>
-            <tbody>
-                { categorias.map( categoria => (                    
-                    <tr key={ categoria.id }>
-                        <td>{ categoria.nome }</td>
-                        <td>{ categoria.descricao }</td>
-                        <td><Link to={`/categorias/detalhes/${categoria.id}`}>Detalhes</Link></td>
-                    </tr>
-                ))}
-                 </tbody>
-                  </table>
-            </div>
-        </div>                         
+                <div className="wrapper">      
+                    <table className="content-table">
+                        <thead>
+                        <tr>
+                            <th>Nome</th>
+                            <th>Descrição</th>
+                            <th>Detalhes</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                            { categorias.map( categoria => (                    
+                                <tr key={ categoria.id }>
+                                    <td>{ categoria.nome }</td>
+                                    <td>{ categoria.descricao }</td>
+                                    <td><Link to={`/categorias/detalhes/${categoria.id}`}>Detalhes</Link></td>
+                                </tr>
+                            ))}
+                            </tbody>
+                    </table>
+                </div>
+            </div>                         
         )
     }
 }
