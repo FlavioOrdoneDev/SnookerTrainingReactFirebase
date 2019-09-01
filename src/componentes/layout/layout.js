@@ -12,6 +12,4 @@ const Layout = (props) => {
     )
 }
 
-//teste de commit
-
 export default Layout;
