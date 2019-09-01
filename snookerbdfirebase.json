@@ -1,0 +1,58 @@
+{ 	
+	"rotinasTemplate" : {
+		"-LEmaPHHgI3SgqTKu9u6" : {
+			"nome": "Six Reds",
+			"descricao": "Descrição positional play 1",
+			"tipoMeta": "PorBolas",
+			"meta": 75.0
+		},
+		"-LEmaPHWXzdUZ_5ohJPa" : {
+			"nome": "K118",
+			"descricao": "Descrição poaitional play 2",
+			"tipoMeta": "PorBolas",
+			"meta": 70.0
+		},
+		"-LEmaPHYAYfVEsQETNZc" : {
+			"nome": "k75",
+			"descricao": "Descrição safety 1",
+			"tipoMeta": "PorBolas",
+			"meta": 55.0
+		},
+		"-LEmaPHZ37QJL1IWficV" : {
+			"nome": "k23",
+			"descricao": "Descrição safety 2",
+			"tipoMeta": "PorBolas",
+			"meta": 48.0
+		},
+		"-LEmaPHecaATk_4CsrUS" : {
+			"nome": "k100",
+			"descricao": "Descrição technique 1",
+			"tipoMeta": "PorBolas",
+			"meta": 55.0
+		},
+		"-LEmaPHoZMzLDoLOPaC7" : {
+			"nome": "k147",
+			"descricao": "Descrição technique 2",
+			"tipoMeta": "PorBolas",
+			"meta": 48.0
+		},
+		"-LEpjA-RXGxfGJzJVIq2" : {
+			"nome": "Six Reds",
+			"descricao": "Descrição positional play 1",
+			"tipoMeta": "PorBolas",
+			"meta": 75.0
+		},
+		"-LEpjiJYUwudct8Of238" : {
+			"nome": "K118",
+			"descricao": "Descrição poaitional play 2",
+			"tipoMeta": "PorBolas",
+			"meta": 70.0
+		},
+		"-LEpkJjTHwHHTkjN81pI" : {
+			"nome": "k75",
+			"descricao": "Descrição safety 1",
+			"tipoMeta": "PorBolas",
+			"meta": 55.0
+		}
+	}	
+}

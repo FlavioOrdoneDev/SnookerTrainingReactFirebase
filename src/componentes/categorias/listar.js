@@ -79,7 +79,11 @@ export default class Categorias extends Component {
     render() {
         const { categorias, pagina, categoriaDetalhes } = this.state;
         return (
-            <div className="cont">
+            <div>
+            <div className="header_wrapper">
+                Categorias
+            </div>
+            <div class="cont">
                 <div className="wrapper">      
                     <table className="content-table">
                         <thead>
@@ -100,6 +104,7 @@ export default class Categorias extends Component {
                             </tbody>
                     </table>
                 </div>
+            </div>
             </div>                         
         )
     }
