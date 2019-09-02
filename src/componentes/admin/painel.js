@@ -1,12 +1,16 @@
 import React from 'react';
+import AdminLayout from '../../componentes/layout/adminLayout';
 
 const Painel = () => {
     return (
-        <div className="user_dashboard">
-            <div>
-                Painel Administrativo
+        <AdminLayout>
+            <div className="user_dashboard">
+                <div>
+                    Painel Administrativo
+                </div>
             </div>
-        </div>
+        </AdminLayout>
+        
     );
 }
 
