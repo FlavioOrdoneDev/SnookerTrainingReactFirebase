@@ -21,3 +21,21 @@ export const reverseArray = (actualArray) => {
     }
     return reversedArray;
 }
+
+export const validate = (element) => {
+    let error = [true,''];
+
+    if(element.validation.email){
+        const valid = /\S+@\S+\.\S+/.test(element.value);
+        const message = `${!valid ? 'Precisa ser um email válido':''}`;
+        error = !valid ? [valid,message]: error;
+    }
+
+    if(element.validation.required){
+        const valid = element.value.trim() !== '';
+        const message = `${!valid ? 'Campo obrigatório':''}`;
+        error = !valid ? [valid,message]: error;
+    }
+
+    return error;
+}
